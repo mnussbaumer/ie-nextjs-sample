@@ -335,3 +335,38 @@ input:focus {
     width: 100%;
 }
 
+@media screen and (max-width: 1025px) {
+    .main-area-images {
+	flex-flow: column nowrap;
+	height: 100%;
+	min-height: unset;
+	margin: 50px 0;
+    }
+
+    .image-container-wrapper {
+	margin-bottom: 25px;
+    }
+
+    .thumbnails-container {
+	flex-flow: column wrap;
+	height: 100%;
+	min-height: unset;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .main-container {
+	flex-flow: column nowrap;
+    }
+
+    .sidebar-wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	    
+    }
+
+    .sidebar {
+	min-height: unset;
+    }
+}
