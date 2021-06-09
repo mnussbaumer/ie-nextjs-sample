@@ -17,7 +17,7 @@ export default function Thumbnails({ state, dispatch }) {
 		      <Image
 			src={image_path}
 			directives={{
-			    outputFormat: "jp2",
+			    outputFormat: "jpg",
 			    height: 90,
 			    width: 90,
 			    fitMethod: "cropbox",

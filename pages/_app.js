@@ -5,6 +5,7 @@ import "../styles/globals.css";
 const delivery_address = process.env.DELIVERY_ADDRESS;
 
 function LeanImages({ Component, pageProps }) {
+    console.log("delivery address", delivery_address);
     return (
 	<ImageEngineProvider deliveryAddress={delivery_address}>
 	  <Head>

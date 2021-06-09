@@ -57,7 +57,7 @@ export default function Home() {
 
 const initial_settings_state = {
     base_path: "/images",
-    file_types: ["jpg", "jp2", "webp"],
+    file_types: ["jpg", "jp2", "webp", "gif", "png", "bmp"],
     file_type: null,
     fit_types: ["stretch", "box", "letterbox", "cropbox"],
     fit_type: null,
