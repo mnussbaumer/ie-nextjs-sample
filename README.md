@@ -1,4 +1,5 @@
 A sample website showing how to use ImageEngine to display highly optimized images on your React NextJS application.
+Follow the tutorial here: https://dev.to/mnussbaumer/imageengine-with-nextjs-1dh7
 
 To install it locally:
 
